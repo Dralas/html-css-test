@@ -1,0 +1,64 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: whitesmoke;
+  color: #333;
+  line-height: 1.6;
+  font-size: 1.25em;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  box-sizing: border-box;
+  background: #333;
+  text-align: center;
+
+}
+
+.title {
+  margin: 0.0.0.5em;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 3rem;
+  color: #ee6352;
+}
+
+.headerLink{
+  margin: 1rem;
+}
+
+.headerLink {
+  cursor: pointer;
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.content {
+  padding: 3em;
+}
+
+footer {
+  background: #333;
+  padding: 3em;
+  color: whitesmoke;
+  margin-top: auto;
+}
+
+.footerLink {
+  text-decoration: none;
+  color: whitesmoke;
+  cursor: pointer;
+}

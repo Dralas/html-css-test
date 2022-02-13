@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  /*margin: 0;*
+  /*color: rgb(255, 255, 255);*/
+  font-family: sans-serif;
+  line-height: 1.25;
+}
+
+body{
+  background: #333;
+  height: 100%;
+}
+
+.container{
+  background-color: rgb(255, 255, 255);
+  /*background-color: darkseagreen;*/
+  min-height: Clamp(10rem, 50vh, 40rem);
+  width: Clamp(10rem, 50vw, 40rem);
+  margin: auto;
+}
+
+.content{
+  background-color: darkseagreen;
+  font-size: Clamp(1.25rem, 1.5vw + 0.25rem, 5rem);
+}
