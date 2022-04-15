@@ -1,0 +1,44 @@
+:root {
+  --clrDark: #333;
+  --clrLight: whitesmoke;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+  background: var(--clrLight);
+  color: var(--clrDark);
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ----- HEADER ----- */
+header {
+  background: var(--clrDark);
+  color: var(--clrLight);
+}
+
+.title {
+  font-style: italic;
+  color: darkorange;
+}
+
+/* ----- CONTENT ----- */
+.content {}
+
+/* ----- FOOTER ----- */
+footer {
+  margin-top: auto;
+  background: var(--clrDark);
+}
